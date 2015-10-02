@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*border: 0;*/
+	/*font-size: 100%;*/
+	/*font: inherit;*/	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	/*line-height: 1;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	/*content: '';*/
+	/*content: none;*/
+}
+table {
+	/*border-collapse: collapse;*/
+	/*border-spacing: 0;*/
+}
+
+/*---------------------- Start: custom CSS----------------*/
+
+body{
+	/*font:100%/150% "Helvetica", "Arial", sans-serif;*/
+	/*font-size:normal;*/
+}
+.wrapper{
+	/*margin: 0 auto;*/
+}
+.innerWrapper{
+	max-width:1024px;
+	margin:0 auto;
+}
+footer{
+	border-top: 1px solid #a9a9a9;
+	padding: 20px 0;
+}
+.contentBody{
+	padding-top: 50px;
+}
+h1,h2,h3,h4,h5,h6{
+	/*font-weight: bold;*/
+	/*padding:5px 0;*/
+}
+/*---------- @ Admin styles ----------- */
+/* Top Nav styles */
+/*.navbar-brand{
+	display: table;
+}
+.navbar-brand > span{
+	display: table-cell;
+	vertical-align: middle;
+}
+.navbar-brand > span> img{
+	width: 100%;
+}
+.navbar-brand > span+span{
+	padding-left: 10px;
+}*/
+/* breadcrumb styles */
+.breadcrumb{
+	background-color: #fff;
+	border-bottom: 1px solid #a9a9a9;
+	border-radius: 0;
+	padding-left: 0;
+	padding-top:15px;
+}
+.breadcrumb > li + li:before{
+	content:'>';
+}
+
+/* Navigation Tabs styles */
+.navTabs {
+	color: #000;
+	/*overflow: hidden;*/
+	margin-bottom: 10px;
+}
+.navTabs li{
+	border: 1px solid #a9a9a9;
+	/*float: left;*/
+}
+.navTabs a{
+	color: #000;
+}
+.nav-pills.navTabs > li > a:hover,.nav-pills.navTabs > li > a:focus,
+.nav-pills.navTabs > li.active > a, .nav-pills.navTabs > li.active > a:hover, .nav-pills.navTabs > li.active > a:focus{
+	background-color: #ffff69;
+	color: #000;
+}
+.navTabContainer {
+	border: 1px solid #a9a9a9;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.navTabContainer .form-horizontal .control-label{
+	text-align: left;
+}
+
+
+/** login page styles **/
+.well{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+/** Post login page **/
+.brandWrapper{
+	/*height: 175px;*/
+	padding:40px;
+	border: 1px solid #000;
+	background-color: #a9a9a9;
+}
+.homeMainContent {
+	padding: 25px 0;
+}
+.homeMainContent .col-sm-8{
+	border-right:1px solid #a9a9a9;
+}
+.upcomingEvents li {
+	margin:10px 0;
+}
+.eventActions{
+	margin: 0;
+	padding: 0;
+}
+.eventActions li{
+	display: inline;
+}
+.eventActions li+li:before{
+	content:'| ';
+}
+
+/** event details pages**/
+.newAlertWrapper form{
+	border-bottom: 1px solid #a9a9a9;
+}
+.gridStyle{
+	clear:both;
+	height:210px;
+}

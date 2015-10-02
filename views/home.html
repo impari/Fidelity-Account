@@ -1,0 +1,32 @@
+<div class="brandWrapper"> 
+	<h1> FNF Escrow Training Events Administration</h1>
+	<p> Configurationa and Sertup of Escrow Trainging Events</p>
+</div>
+<div class="homeMainContent">
+	<div class="row">
+		<div class="col-sm-8">
+			<h2>Welcome shawn.tomlinson@fnf.com</h2>
+			<div class="welcomeNotes">
+				<p>This is fnf trainging event application. It will help to manage the events</p>
+				<p>This is fnf trainging event application. It will help to manage the events</p>
+				<p>This is fnf trainging event application. It will help to manage the events</p>
+				<p>This is fnf trainging event application. It will help to manage the events</p>
+				<p>This is fnf trainging event application. It will help to manage the events</p>
+			</div>
+		</div>
+		<div class="col-sm-4" data-ng-controller="homeController as instanceController">
+			<fieldset>
+				<legend>Upcoming Events</legend>
+					<ul class="upcomingEvents">
+						<li data-ng-repeat="events in instanceController.upcomingEvents">
+							<div>{{events.name}}</div>
+							<ul class="eventActions">
+							  <li><a href="#/eventslist/{{events.eventID}}/details">Edit</a></li>
+							  <li><a href="#/eventslist/{{events.eventID}}/checkin_checkout">Checkin/Checkout</a></li>
+							</ul>
+						</li>
+					</ul>
+			</fieldset>
+		</div>
+	</div>
+</div>	

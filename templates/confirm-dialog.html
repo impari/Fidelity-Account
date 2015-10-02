@@ -1,0 +1,12 @@
+<div class="modal-header">
+ 	<button type="button" class="close" ng-click="cancel()" aria-hidden="true">x</button>
+      <h3>{{title}}</h3>
+ </div>
+ <div class="modal-body">
+ 	 <p>{{msg}}<p/>
+      <div class="modal-footer">
+      	  <div class="help-block">{{errormessage}}</div>
+          <button type="submit" class="btn btn-primary" ng-click="ok()" >{{okbutton}}</button>
+          <button class="btn btn-warning" ng-click="cancel()">{{cancelbutton}}</button>
+      </div>
+</div>
